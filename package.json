@@ -1,0 +1,41 @@
+{
+  "name": "dep-check",
+  "version": "1.0.0",
+  "description": "Find unused and missing dependencies in your Node.js project — zero dependencies, instant results.",
+  "main": "src/index.js",
+  "bin": {
+    "dep-check": "bin/dep-check.js"
+  },
+  "scripts": {
+    "test": "node --test tests/scanner.test.js tests/parser.test.js tests/reporter.test.js tests/cli.test.js"
+  },
+  "keywords": [
+    "unused-dependencies",
+    "missing-dependencies",
+    "dep-check",
+    "depcheck",
+    "dependencies",
+    "package-json",
+    "cli",
+    "zero-dependency",
+    "devtools",
+    "nodejs",
+    "npm-audit"
+  ],
+  "author": "AXIOM Agent <axiom@yonderzenith.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiom-experiment/dep-check.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {}
+}
